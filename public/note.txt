@@ -1,0 +1,33 @@
+
+Deploy to Firebase Hosting
+You can deploy now or later. To deploy now, open a terminal window, then navigate to or create a root directory for your web app.
+
+Sign in to Google
+
+firebase login
+Initiate your project
+Run this command from your app’s root directory:
+
+
+firebase init
+When you’re ready, deploy your web app
+Put your static files (e.g., HTML, CSS, JS) in your app’s deploy directory (the default is “public”). Then, run this command from your app’s root directory:
+
+
+firebase deploy
+After deploying, view your app at linkedin-clone-fa3ae.web.app
+
+Need help? Check out the Hosting docs
+
+=========
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCHovASBfGiBp_Lk8v6rBY_fc-tIq-SRT4",
+  authDomain: "linkedin-clone-fa3ae.firebaseapp.com",
+  projectId: "linkedin-clone-fa3ae",
+  storageBucket: "linkedin-clone-fa3ae.appspot.com",
+  messagingSenderId: "204204950446",
+  appId: "1:204204950446:web:42bf575d3e2dd0b908fe3f"
+};
+
+==============
